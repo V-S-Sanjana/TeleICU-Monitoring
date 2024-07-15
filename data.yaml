@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Doctor', 'Nurse', 'Patient', 'Relatives']
+
+roboflow:
+  workspace: icu-ivtfn
+  project: icu_dataset
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/icu-ivtfn/icu_dataset/dataset/2
